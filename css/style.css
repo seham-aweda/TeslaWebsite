@@ -1,0 +1,307 @@
+#page-1 {
+  margin: 0;
+  padding: 0;
+  background: url(/img/M3-Hero-LHD-US-D.jpg);
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: 50% 40%;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+}
+/* Main Styling */
+
+html,
+body {
+  font-family: myGothamFont;
+  font-size: 17px;
+  src: url(../font/1746-font.woff);
+  line-height: 2.4em;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+margin-top: -20px;
+  overflow: auto;
+}
+
+.navbar {
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+#page-1 .tesla-logo {
+  float: left;
+  width: 11vw;
+  margin: 10px 0px 0px 0px;
+  padding-left: 15px;
+  position: fixed;
+  cursor: pointer;
+}
+
+.middle {
+  font-size: 17px;
+  font-weight: bold;
+  float: left;
+  width: 54vw;
+  margin-left: 15vw;
+  margin-top: -6px;
+}
+
+.right {
+  font-size: 17px;
+  font-weight: bold;
+  float: right;
+  width: 25vw;
+  margin-top: -6px;
+}
+
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar-item:hover {
+  background: #6f7681;
+  border-radius: 15px;
+}
+.navbar ul li a {
+  display: block;
+  padding: 0px 15px;
+
+  text-align: center;
+}
+
+.model-3 {
+  max-width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+}
+.side-bar {
+  position: fixed;
+  z-index:5;
+}
+.side-bar li {
+  list-style-type: none;
+  padding: 20px 0px 5px 0px;
+  margin: 20px 0px 20px -40px;
+}
+.side-bar li::before {
+  content: "|";
+  color: white;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 4px;
+}
+.side-bar li .navbar-item1 {
+  opacity: 0.2;
+}
+.side-bar li .navbar-item1:hover {
+  color: #ffffff;
+  background: black;
+  padding:10px;
+  border-radius:15px ;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.footer .sp {
+  margin-top: 25%;
+  text-align: center;
+}
+
+.footer .spc {
+  font-size: 30px;
+  padding: 10px 20px 0px 20px;
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer .spc1 {
+  border: 4px white solid;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+.footer .spc1:hover {
+  color: black;
+  background: white;
+}
+
+.footer .sp1 {
+  text-align: center;
+  margin-right: 150px;
+  margin-top: -30px;
+}
+
+.footer .spr {
+  text-align: center;
+  font-size: 15px;
+  margin-right: 12px;
+  padding: 0px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.Twilio {
+  position: fixed;
+  float: right;
+  margin-left: 18%;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.scroll {
+  text-align: center;
+  background: none;
+  margin-top: -20px;
+}
+.btn {
+  cursor: pointer;
+  width: 40px;
+  background: none;
+  font-size: 30px;
+  border: none;
+  color: white;
+}
+
+#page-2 {
+  background: url(/img/model_3_safety_hero.png) no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 20%;
+  background-size: 90%;
+  float: right;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+#page-2 .tesla-logo1 {
+  float: left;
+  width: 11vw;
+  margin: 10px 0px 0px 0px;
+  padding-left: 15px;
+  z-index: 5;
+  position: absolute;
+  cursor: pointer;
+}
+.upper {
+  float: right;
+  width: 8.3%;
+  height: 100vh;
+  background: rgb(231, 230, 230);
+}
+
+.aside {
+  float: left;
+  width: 27%;
+  background: white;
+  color: #333;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.p1 {
+  width: 80%;
+  margin-left: 40px;
+  line-height: 0.4em;
+}
+.p1 h3 {
+  font-weight: lighter;
+}
+.p2 {
+  width: 80%;
+  margin-left: 40px;
+  line-height: 1.3em;
+}
+.button1{
+    font-size: 12px;
+    border-radius: 100px;
+    border:3px solid #393c41;
+    float: left;
+    color:#393c41;
+    background: none;
+    padding:0px 8px;
+}
+.button1:hover{
+    background: #393c41;
+    color:white;
+} 
+
+.learn-more{
+    font-size: 12px;
+    color:#393c41;
+    float:left;
+    border:none;
+    background: none;
+    margin-left: 30px;
+  
+
+}
+.button2{
+    font-size: 12px;
+    border-radius: 100px;
+    border:3px solid #393c41;
+    float: left;
+    color:#393c41;
+    background: none;
+    padding:4px 12px;
+    margin-left:20px;
+    margin-top:8px ;
+}
+.button2:hover{
+    background: #393c41;
+    color:white;
+}
+.hf{
+    
+    margin:150px 20px 0px 0px;
+}
+.right-section{
+    position:relative;
+z-index:8;
+width:80%;
+height:100%;
+}
+.circle{
+    width: 8px;
+    height:8px ;
+    background:white;
+    border:2px solid black;
+    border-radius: 50%;
+}
+
+.pointer{
+    width:1px;
+    border:2px solid black;
+    height:70px;
+    margin-left: 4px;
+}
+.impact{
+    margin:-8px 0px 0px 730px;
+}
+.rollover{
+    margin:75px 0px 0px 770px;
+}
+.rigid{
+    margin:-10px 0px 0px 500px;
+}
